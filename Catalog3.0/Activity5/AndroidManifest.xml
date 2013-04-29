@@ -1,0 +1,95 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mateofornescatalog"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddFilm"
+            android:label="@string/title_activity_add_film" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mateofornescatalog.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SearchFilm"
+            android:label="@string/title_activity_search_film" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mateofornescatalog.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AddFilm2"
+            android:label="@string/title_activity_add_film2" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mateofornescatalog.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AddFilmCont"
+            android:label="@string/title_activity_add_film_cont" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mateofornescatalog.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Film_Info"
+            android:label="@string/title_activity_film__info" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mateofornescatalog.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DeleteFilm"
+            android:label="@string/title_activity_delete_film" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mateofornescatalog.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Top1OFilm"
+            android:label="@string/title_activity_see_film" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mateofornescatalog.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TopFilm"
+            android:label="@string/title_activity_top_film" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mateofornescatalog.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Films2See"
+            android:label="@string/title_activity_films2_see" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mateofornescatalog.MainActivity" />
+        </activity>
+        
+        
+        <service
+            android:name=".MovieCatalogService" 
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+    </application>
+
+</manifest>

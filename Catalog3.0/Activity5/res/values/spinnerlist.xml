@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="genre_array">
+        <item>Action</item>
+        <item>Comedy</item>
+        <item>Family</item>
+        <item>History</item>
+        <item>Mysery</item>
+        <item>Scy-Fi</item>
+        <item>War</item>
+        <item>Adventure</item>
+        <item>Crime</item>
+        <item>Fantasy</item>
+        <item>Horror</item>
+        <item>News</item>
+        <item>Sports</item>
+        <item>Western</item>
+        <item>Animation</item>
+        <item>Drama</item>
+        <item>Thriller</item>
+    </string-array>
+</resources>

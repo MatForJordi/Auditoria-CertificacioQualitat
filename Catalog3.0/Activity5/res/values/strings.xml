@@ -1,0 +1,66 @@
+<resources>
+
+    <string name="app_name">MateoFornes_EJ5</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title">Film_Catalog</string>
+    <string name="logo">this is the our loggo</string>
+    <string name="caratula">empty films</string>
+    <string name="insert">insert</string>
+    <string name="search">search</string>
+    <string name="top10">top10</string>
+    <string name="delete">delete</string>
+    <string name="outstanding">to see</string>
+    <string name="update">update</string>
+    <string name="news">news</string>
+    <string name="save">save</string>
+    <string name="charge">charge</string>
+    <string name="sync">sync</string>
+    <string name="img_gal">this is the gallery image</string>
+    <string name="title_activity_add_film">AddFilm</string>
+    <string name="add_Film"> Add film </string>
+    <string name="search_Film"> Search film </string>
+    <string name="film_name"> Write the name of the movie: </string>
+    <string name="actor_name"> Write the name of the actor/actors: </string>
+    <string name="director_name"> Write the name of the director/directors: </string>
+    <string name="genre"> Select de genre of the movie: </string>
+    <string name="film_img"> Upload and image of the movie: </string>
+    <string name="film_see"> Select: </string>
+    <string name="film_qual"> Select a qualification: </string>
+    <string name="film_description"> Write a brief synopsys of the film </string>
+    <string name="film_opt1"> I see the film. </string>
+    <string name="film_opt2"> I want to see the film </string>
+    <string name="film_opt3"> I do not see the film </string>
+    <string name="film_op4"> I do not want to see the film </string>
+    <string name="qual"> enter a number between 0 qnd 10 </string>
+    <string name="title_activity_search_film">SearchFilm</string>
+    <string name="title_activity_add_film2">AddFilm2</string>
+    <string name="title_activity_add_film_cont">AddFilmCont</string>
+    <string name="add"> ADD </string>
+    <string name="actor"> actor </string>
+    <string name="director"> director </string>
+    <string name="toast_addition"> Film added </string>
+    <string name="toast_erase"> Film removed </string>
+    <string name="title_activity_film__info">Film_Info</string>
+    <string name="filminfo_Name">Name of the movie: </string>
+    <string name="filminfo_Desc">Summarize of the movie: </string>
+    <string name="filminfo_Actors">Actors: </string>
+    <string name="filminfo_Directors">Directors: </string>
+    <string name="filminfo_Genre">Genre of the movie: </string>
+    <string name="title_activity_delete_film">DeleteFilm</string>
+    <string name="title_activity_see_film">SeeFilm</string>
+    <string name="title_activity_top_film">TopFilm</string>
+    <string name="title_activity_films2_see">Films2See</string>
+    <string name= "tittle">tittle</string>
+    <string name= "summ">summary</string>
+    <string name= "alert">Alert</string>
+    <string name= "alert_msg1">Choose the correct parameters</string>
+    <string name= "alert_msg2">You must fill all the camps</string>
+    <string name= "alert_msg3">The film name is not in the catalog!</string>
+    <string name= "alert_button">OK</string>
+    <string name= "not_implemented">This functionality is underconstruction!</string>
+     <string name= "togglebutton">togglebutton</string>
+    
+
+</resources>

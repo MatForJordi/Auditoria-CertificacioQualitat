@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.68"
+            android:gravity="center"
+            android:text="@string/title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="40dp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.20"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filminfo_Name"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/infoMovieName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@color/white"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filminfo_Desc"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/infoMovieDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@color/white"
+        android:text="" />
+
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filminfo_Actors"
+        android:textColor="@color/white" />
+
+    <Spinner
+        android:id="@+id/spinnerActors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filminfo_Directors"
+        android:textColor="@color/white" />
+
+    <Spinner
+        android:id="@+id/spinnerDirectors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filminfo_Genre"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/infoMovieGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:ems="10"
+        android:background="@color/white" />
+
+    <RatingBar
+        android:id="@+id/infoMovieQual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:clickable="false"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="92dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="125dp"
+            android:contentDescription="@string/img_gal"
+            android:src="@drawable/back_icon" />
+    </LinearLayout>
+
+</LinearLayout>
